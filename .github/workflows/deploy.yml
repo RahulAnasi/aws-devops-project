@@ -21,7 +21,7 @@ jobs:
 
       - name: Login to ECR
         run: |
-          aws ecr get-login-password --region $AWS_REGION | docker login --username AWS --password-stdin 720215340212.dkr.ecr.ap-south-1.amazonaws.com
+          aws ecr get-login-password --region $AWS_REGION | docker login --username AWS --password-stdin 720215340212.dkr.ecr.eu-north-1.amazonaws.com
 
       - name: Build Image
         run: docker build -t devops-app .
