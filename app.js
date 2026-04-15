@@ -7,7 +7,7 @@ console.log("Starting app...");
 const connection = mysql.createConnection({
   host: 'aws-devops-db.c5oqk08mi0us.eu-north-1.rds.amazonaws.com',
   user: 'admin',
-  password: 'Admin@10906'
+  password: 'Admin10906'
 });
 
 // Try connecting
