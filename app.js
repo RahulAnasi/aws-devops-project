@@ -25,7 +25,7 @@ connection.connect((err) => {
       return;
     }
 
-    connection.query("USE devopsdb");
+    connection.query("USE aws-devops-db");
 
     connection.query(`
       CREATE TABLE IF NOT EXISTS messages (
