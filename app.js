@@ -22,7 +22,7 @@ redisClient.connect().then(() => {
 const connection = mysql.createConnection({
   host: 'aws-devops-db.c5oqk08mi0us.eu-north-1.rds.amazonaws.com',
   user: 'admin',
-  password: 'Devops123'
+  password: 'Admin10906'
 });
 
 connection.connect((err) => {
