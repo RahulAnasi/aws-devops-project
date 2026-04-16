@@ -12,9 +12,13 @@ const redisClient = redis.createClient({
   }
 });
 
-redisClient.connect().then(() => {
-  console.log("✅ Connected to Redis");
-}).catch(err => {
+  console.log("✅ Connecting to Redis");
+redisClient.connect()
+  .then(() => {
+  console.log("✅ Connecting to Redis");
+})
+
+.catch(err => {
   console.error("❌ Redis connection failed:", err);
 });
 
