@@ -7,7 +7,7 @@ console.log("Starting app...");
 // Redis client
 const redisClient = redis.createClient({
   socket: {
-    host: 'master.aws-devops-cache-cluster.6nzr6z.eun1.cache.amazonaws.com:6379',
+    host: 'master.aws-devops-cache-cluster.6nzr6z.eun1.cache.amazonaws.com',
     port: 6379
   }
 });
